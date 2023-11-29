@@ -1,0 +1,38 @@
+ form{
+	background-color:7c94ff;
+	width:600px;
+	height:auto;
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	border-radius:20px;
+}
+main{
+	display:flex;
+	justify-content:center;
+}
+input{
+	color:black;
+	background-color:white;
+	font-size:25px
+}
+h1{
+	color:white;
+	text-align:center}
+
+placeholder{
+	color:white;
+}
+body{
+	background:url("lu.jpg") no-repeat;
+	background-size:100%;
+}
+selected{
+	flex-direction:row;
+}
+form{
+	color:#27795e;
+}
+h3{
+	color:white;
+}

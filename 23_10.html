@@ -1,0 +1,47 @@
+<!DOCTYPE HTML!>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>FORMULARIO</title>
+  <link rel="stylesheet" href="formulario.css">	
+</head>
+<body>
+<h1>CADASTRO OFICIAL</h1>
+<main>
+<form>
+    <h3>NOME:</h3>
+	<input type="text" placeholder="NOME" maxlength="10" required autofocus><br>
+	<h3>EMAIL:</h3>
+	<input type="email" placeholder="EMAIL" required><br>
+	<h3>SENHA:</h3>
+	<input type="password"><br>
+	<h3>TELEFONE:</h3>
+	<input type="tel" maxlength="9"><br>
+	<h3>DATA:</h3>
+	<input type="date" ><br>
+	<section>
+	<h3>ZONA:</h3>
+	<input type="radio" name="zona">NORTE
+	<input type="radio" name="zona">SUL
+	<input type="radio" name="zona" checked>SUDESTE
+	<input type="radio" name="zona">LESTE
+	</section>
+	<br>
+	<h3>CURSOS:</h3>
+	<select>
+	   <option>Informatica</option>
+	   <option>Enfermagem</option>
+	   <option>Edificações</option>
+	   <option>Análises Clínicas</option>
+	</select>
+	<h3>COMENTÁRIO:</h3>
+	<textarea cols="10" rows="10" placeholder="Digite seu comentário"
+	></textarea>
+	<br>
+	<input type="submit" value="CADASTRAR"><br>
+	<input type="reset" value="CANCELAR"><br>
+  
+</form>
+</main>
+</body>
+</html>
